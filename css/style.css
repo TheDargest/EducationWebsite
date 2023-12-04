@@ -384,6 +384,7 @@ header {
     left: 47.5%;
     top: -1.5rem;
     transform: rotate(45deg);
+    
 }
 
 footer {
@@ -586,11 +587,12 @@ footer ul li a:hover{
 
     .courses {
         margin-top: 0;
-
+        
     }
-
+    
     .courses__container {
         grid-template-columns: 1fr 1fr;
+        
     }
 
     /* frequently asked questions */
@@ -632,7 +634,11 @@ footer ul li a:hover{
     .header__container {
         grid-template-columns: 1fr;
         text-align: center;
-        margin-top: 0;
+        margin-top: -10px;  
+    }
+    
+    .header__right {
+        
     }
 
     .header__left p{
@@ -642,11 +648,20 @@ footer ul li a:hover{
     /* categories */
 
 
+    .category {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 45%;
+        
+    }
+
     .category__icon {
          width: 50px;
-         height: 50PX;
-         position: relative;
-         left: 37px;
+         height: 50px;
+         
+         
     }
 
     .category__icon img{
@@ -654,6 +669,14 @@ footer ul li a:hover{
          left: 2px;
          top: 2px;
         
+   }
+
+   .categories__right{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
    }
 
    .categories__right h5{
@@ -668,8 +691,11 @@ footer ul li a:hover{
     .btn {
         display: flex;
         justify-content: center;
-        
+        width: 70%;
+        margin-left: 15%;
     }
+
+
 
     .categories__left p{
         text-align: center; 
@@ -689,12 +715,14 @@ footer ul li a:hover{
     .category__icon {
         margin-top: 4px;
         display: inline-block;
+        
 
     }
 
     /* popular courses */
 
     .courses__container {
+        
         grid-template-columns: 1fr;
 
     }
@@ -703,6 +731,15 @@ footer ul li a:hover{
 
     .testimonal__body {
         padding: 1.2rem;
+        margin-top: 30px;
+    }
+    .testimonial__info {
+        margin-top: 10px;
+    }
+
+    .testimonal__body::before {
+        display: none;
+
     }
 
     /* footer */

@@ -180,9 +180,15 @@
 
 @media screen and (max-width: 600px) {
     .achievments__cards {
-        grid-template-columns: 1fr 1fr;
-        gap: 0.7rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
 
+    }
+
+    .achievments__card {
+        width: 46%;
     }
 
     .team__container {

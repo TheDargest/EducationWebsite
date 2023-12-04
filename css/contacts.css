@@ -152,7 +152,7 @@ input, textarea{
         gap: 3rem;
         margin-top: 0;
         padding: 0;
-
+        margin-bottom: 30px;
     }
 
     .contact__form {
@@ -163,6 +163,10 @@ input, textarea{
     .form__name {
         flex-direction: column;
 
+    }
+    
+    .btn {
+        margin-left: 25%;
     }
 
     .form__name input {
