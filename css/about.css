@@ -5,8 +5,7 @@
 
 }
 
-.container {
-}
+
 
 .about__achievments-container {
     display: grid;
@@ -14,8 +13,6 @@
     gap: 5rem;
 }
 
-.about__achievments-left {
-}
 
 .about__achievments-right > p{
     margin: 1.6rem 0 2.5rem;

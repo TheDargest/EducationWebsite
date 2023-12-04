@@ -589,7 +589,7 @@ footer ul li a:hover{
         margin-top: 0;
         
     }
-    
+
     .courses__container {
         grid-template-columns: 1fr 1fr;
         
@@ -637,9 +637,7 @@ footer ul li a:hover{
         margin-top: -10px;  
     }
     
-    .header__right {
-        
-    }
+    
 
     .header__left p{
         margin-bottom: 1.3rem;
